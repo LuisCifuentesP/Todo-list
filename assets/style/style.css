@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cuerpo{
+    padding: 1rem;
+    background-color: var(--color1);
+}
+
+.ingreso{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 0.5rem;
+    align-items: start;
+    padding: 1rem;
+}
+
+.btn-agregar{
+    border-radius: 5px;
+    width: 90px;
+    background-color: var(--color3);
+}
+
+.tareas{
+    display: flex;
+    gap: 15rem;
+}
+
+.resumen{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.resumen-titulo{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.lista{
+    padding: 1rem;
+}
+
+.tabla-tareas{
+    width: 500px;
+}
+
+th, td{
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.columna-nombre-tarea{
+    width: 20rem;
+    text-align: start;
+}
+
+
+:root{
+  --color1:#DFF2EB;
+  --color2:#B9E5E8;
+  --color3:#7AB2D3;
+}
